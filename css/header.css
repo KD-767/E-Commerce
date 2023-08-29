@@ -1,0 +1,217 @@
+.top-notification {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 231px;
+  height: 48px;
+  background-color: black;
+}
+.top-notification p {
+  color: #FAFAFA;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+.top-notification a {
+  color: #FAFAFA;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  margin-left: 8px;
+}
+
+.lang-switch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 231px;
+}
+.lang-switch img {
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.lang-switch:hover {
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+.lang-switch:hover p {
+  font-size: 18px;
+}
+.lang-switch:hover img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 47px;
+  padding-bottom: 16px;
+  border-bottom: solid 1px #cdcdcd;
+}
+nav p {
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.72px;
+}
+
+.navnav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  margin-right: 80px;
+  margin-left: 100px;
+}
+.navnav a {
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-right: 48px;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+.navnav a:hover {
+  font-size: 20px;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.nav-search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  font-family: Poppins;
+  width: 243px;
+  height: 48px;
+  border: none;
+  background-color: #FAFAFA;
+  border-radius: 5px;
+}
+
+.wishlist-and-cart-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wishlist-icon {
+  margin-left: 24px;
+  margin-right: 10px;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.wishlist-icon:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.Cart1-with-buy-icon {
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.Cart1-with-buy-icon:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.vertical-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 40px;
+  margin-left: 135px;
+  width: 240px;
+  gap: 25px;
+  border-right: solid 1px #cdcdcd;
+}
+.vertical-nav a {
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+.vertical-nav a:hover {
+  font-size: 17px;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.womans-fashion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 51px;
+}
+
+.mens-fashion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 88px;
+}
+
+.vernav-w-slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.glav-slider {
+  margin-top: 20px;
+  margin-left: 100px;
+}

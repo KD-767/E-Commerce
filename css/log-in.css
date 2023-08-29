@@ -1,0 +1,131 @@
+.log-in-part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 60px;
+  margin-bottom: 140px;
+}
+.log-in-part img {
+  width: 50%;
+}
+
+.log-in-info-part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 130px;
+}
+
+.log-in-to-exc-1 {
+  color: #000;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 1.44px;
+  margin-bottom: 24px;
+}
+
+.log-in-to-exc-2 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 48px;
+}
+
+.log-in-input-part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+}
+
+#log-in-input-mail {
+  width: 370px;
+  border: none;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.7);
+  padding-bottom: 8px;
+  outline: none;
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+#log-in-input-pswrd {
+  width: 370px;
+  border: none;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.7);
+  padding-bottom: 8px;
+  outline: none;
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.log-in-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 371px;
+  height: 56px;
+  margin-top: 40px;
+}
+.log-in-buttons a {
+  color: #DB4444;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.log-in-button-log-in {
+  width: 143px;
+  height: 56px;
+  color: #FAFAFA;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  background: #DB4444;
+  border-radius: 4px;
+  border: solid 1px rgba(0, 0, 0, 0);
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.log-in-button-log-in:hover {
+  color: #DB4444;
+  background: #FAFAFA;
+  border: solid 1px #DB4444;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}

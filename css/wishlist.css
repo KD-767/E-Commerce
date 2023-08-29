@@ -1,0 +1,72 @@
+.wishlist-just-for-you-glav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 65px;
+  margin-left: 135px;
+  margin-right: 135px;
+}
+
+.wishlist-just-for-you {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 16px;
+}
+
+.wishlist-button {
+  width: 150px;
+  height: 56px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  background: #FFF;
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+
+.wishlist-button:hover {
+  color: #FFF;
+  background: #000;
+}
+
+.wishlist-button:active {
+  color: #FFF;
+  background: #DB4444;
+}
+
+.wishlist-cards-glav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 140px;
+}
+
+.wishlist-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}

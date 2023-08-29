@@ -1,0 +1,2835 @@
+.timer {
+  margin-left: 87px;
+  margin-top: 50px;
+}
+
+.timer__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 48px;
+}
+
+.timer__item {
+  position: relative;
+  min-width: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-bottom: 15px;
+  text-align: center;
+  color: #000;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 1.28px;
+}
+
+.timer__item::before {
+  content: attr(data-title);
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: -50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  color: #000;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.timer__item:not(:last-child)::after {
+  content: ":";
+  position: absolute;
+  right: -15px;
+}
+
+.Flash-Sales-Top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 120px;
+  margin-left: 70px;
+}
+
+.red-rectangle {
+  width: 20px;
+  height: 40px;
+  background-color: #DB4444;
+  border-radius: 5px;
+}
+
+.Todays {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 16px;
+}
+.Todays p {
+  color: #DB4444;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.flashsales-inscription {
+  color: #000;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 1.44px;
+  margin-top: 15px;
+}
+
+.Flash-Sales-Card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.fill-heart {
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+  border: 2px;
+  border-radius: 50%;
+}
+
+.fill-heart:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.fill-eye {
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+  border: 2px;
+  border-radius: 50%;
+}
+
+.fill-eye:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.add-to-cart-fh {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  opacity: 0;
+  width: 270px;
+  height: 41px;
+  margin-top: 177px;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  border: none;
+  border-radius: 0px 0px 4px 4px;
+  background: #000;
+  -webkit-transition: hover 0.8s;
+  transition: hover 0.8s;
+}
+
+.add-to-cart-fh:hover {
+  border: solid 1px #000;
+  color: #000;
+  background: #FFF;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.add-to-cart-fh:active {
+  border: solid 1px #fff;
+  background: #DB4444;
+  color: #FFF;
+}
+
+.HAVIT-HV-G92-Gamepad {
+  width: 270px;
+  height: 350px;
+  border-radius: 5px;
+  margin-top: 31px;
+  margin-left: 25px;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.HAVIT-HV-G92-Gamepad:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+.HAVIT-HV-G92-Gamepad:hover .add-to-cart-fh {
+  opacity: 1;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.HAVIT-HV-G92-Gamepad-img-part {
+  position: absolute;
+  width: 270px;
+  height: 260px;
+  background-color: #F5F5F5;
+  border-radius: 4px;
+}
+
+.fill-heart-eye {
+  position: absolute;
+  left: 330%;
+  top: 40%;
+}
+
+.HAVIT-HV-G92-Gamepad-elements {
+  position: absolute;
+  z-index: 3;
+}
+
+.card-discount-img {
+  margin-top: 12px;
+  margin-left: 12px;
+}
+
+.HAVIT-HV-G92-Gamepad-img {
+  position: absolute;
+  margin-top: 49px;
+  margin-left: 49px;
+  z-index: 2;
+  width: 172px;
+  height: 152px;
+}
+
+.HAVIT-HV-G92-Gamepad-text {
+  position: relative;
+  top: 77%;
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.flash-sales-card-price {
+  color: #DB4444;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.flash-sales-card-old-price {
+  color: #696969;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+  margin-top: 9px;
+}
+
+.cards-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 12px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.AK-900-Wired-Keyboard {
+  width: 270px;
+  height: 350px;
+  border-radius: 5px;
+  margin-top: 31px;
+  margin-left: 25px;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.AK-900-Wired-Keyboard:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+.AK-900-Wired-Keyboard:hover .add-to-cart-fh {
+  opacity: 1;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.AK-900-Wired-Keyboard-img-part {
+  position: absolute;
+  width: 270px;
+  height: 260px;
+  background-color: #F5F5F5;
+  border-radius: 4px;
+}
+
+.fill-heart-eye {
+  position: absolute;
+  left: 330%;
+  top: 40%;
+}
+
+.AK-900-Wired-Keyboard-elements {
+  position: absolute;
+  z-index: 3;
+}
+
+.card-discount-img {
+  margin-top: 12px;
+  margin-left: 12px;
+}
+
+.AK-900-Wired-Keyboard-img {
+  position: absolute;
+  margin-top: 49px;
+  margin-left: 49px;
+  z-index: 2;
+  width: 172px;
+  height: 152px;
+}
+
+.AK-900-Wired-Keyboard-text {
+  position: relative;
+  top: 77%;
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.flash-sales-card-price {
+  color: #DB4444;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.flash-sales-card-old-price {
+  color: #696969;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+}
+
+.IPS-LCD-Gaming-Monitor {
+  width: 270px;
+  height: 350px;
+  border-radius: 5px;
+  margin-top: 31px;
+  margin-left: 25px;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.IPS-LCD-Gaming-Monitor:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+.IPS-LCD-Gaming-Monitor:hover .add-to-cart-fh {
+  opacity: 1;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.IPS-LCD-Gaming-Monitor-img-part {
+  position: absolute;
+  width: 270px;
+  height: 260px;
+  background-color: #F5F5F5;
+  border-radius: 4px;
+}
+
+.fill-heart-eye {
+  position: absolute;
+  left: 330%;
+  top: 40%;
+}
+
+.IPS-LCD-Gaming-Monitor-elements {
+  position: absolute;
+  z-index: 3;
+}
+
+.card-discount-img {
+  margin-top: 12px;
+  margin-left: 12px;
+}
+
+.IPS-LCD-Gaming-Monitor-img {
+  position: absolute;
+  margin-top: 49px;
+  margin-left: 42px;
+  z-index: 2;
+  width: 172px;
+  height: 152px;
+}
+
+.IPS-LCD-Gaming-Monitor-text {
+  position: relative;
+  top: 77%;
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.flash-sales-card-price {
+  color: #DB4444;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.flash-sales-card-old-price {
+  color: #696969;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+}
+
+.S-Series-Comfort-Chair {
+  width: 270px;
+  height: 350px;
+  border-radius: 5px;
+  margin-top: 31px;
+  margin-left: 25px;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.S-Series-Comfort-Chair:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+.S-Series-Comfort-Chair:hover .add-to-cart-fh {
+  opacity: 1;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.S-Series-Comfort-Chair-img-part {
+  position: absolute;
+  width: 270px;
+  height: 260px;
+  background-color: #F5F5F5;
+  border-radius: 4px;
+}
+
+.fill-heart-eye {
+  position: absolute;
+  left: 330%;
+  top: 40%;
+}
+
+.S-Series-Comfort-Chair-elements {
+  position: absolute;
+  z-index: 3;
+}
+
+.card-discount-img {
+  margin-top: 12px;
+  margin-left: 12px;
+}
+
+.S-Series-Comfort-Chair-img {
+  position: absolute;
+  margin-top: 49px;
+  margin-left: 42px;
+  z-index: 2;
+  width: 172px;
+  height: 152px;
+}
+
+.S-Series-Comfort-Chair-text {
+  position: relative;
+  top: 77%;
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.flash-sales-card-price {
+  color: #DB4444;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.flash-sales-card-old-price {
+  color: #696969;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+}
+
+.view-all-products-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 60px;
+}
+
+.view-all-products-button-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 234px;
+  height: 56px;
+  border-radius: 4px;
+  background-color: #DB4444;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+.view-all-products-button-wrapper p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #FAFAFA;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.view-all-products-button-wrapper:hover {
+  background-color: #fff;
+  border: solid 1px #DB4444;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+.view-all-products-button-wrapper:hover p {
+  color: #DB4444;
+}
+
+.categories {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 463px;
+  border-top: solid 1px #cdcdcd;
+  border-bottom: solid 1px #cdcdcd;
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+.categories-top {
+  margin-top: 80px;
+  margin-left: 70px;
+}
+
+.categories-text-with-rectangle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 16px;
+}
+.categories-text-with-rectangle p {
+  color: #DB4444;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.categories-inscription {
+  color: #000;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 1.44px;
+  margin-top: 15px;
+}
+
+.categories-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.category {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 170px;
+  height: 145px;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+.category p {
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 16px;
+}
+
+.cat-ico-hhh {
+  display: none;
+}
+
+.category:hover {
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  background-color: #DB4444;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+.category:hover .cat-ico {
+  display: none;
+}
+.category:hover .cat-ico-hhh {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.category:hover p {
+  color: #fff;
+}
+
+.Best-Selling-Products-top-glav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  margin-top: 70px;
+  margin-left: 70px;
+}
+
+.Best-Selling-Products-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Best-Selling-Products-text-with-rectangle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 16px;
+}
+.Best-Selling-Products-text-with-rectangle p {
+  color: #DB4444;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.Best-Selling-Products-inscription {
+  color: #000;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 1.44px;
+  margin-top: 15px;
+}
+
+.view-all-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 159px;
+  height: 56px;
+  border-radius: 4px;
+  background: #DB4444;
+  margin-right: 183px;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+.view-all-button p {
+  color: #FAFAFA;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.view-all-button:hover {
+  background-color: #fff;
+  border: solid 1px #DB4444;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+.view-all-button:hover p {
+  color: #DB4444;
+}
+
+.add-to-cart-bsp {
+  width: 270px;
+  height: 41px;
+  opacity: 0;
+  margin-top: 219px;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  border: none;
+  border-radius: 0px 0px 4px 4px;
+  background: #000;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.add-to-cart-bsp:hover {
+  background: #FFF;
+  color: #000;
+  border: solid 1px #000;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.add-to-cart-bsp:active {
+  border: solid 1px #fff;
+  background: #DB4444;
+  color: #FFF;
+}
+
+.Best-Selling-Products-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 60px;
+  gap: 60px;
+}
+
+.The-North-Coat {
+  width: 270px;
+  height: 350px;
+  border-radius: 5px;
+  margin-top: 31px;
+  margin-left: 25px;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.The-North-Coat:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+.The-North-Coat:hover .add-to-cart-bsp {
+  opacity: 1;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.The-North-Coat-img-part {
+  position: absolute;
+  width: 270px;
+  height: 260px;
+  background-color: #F5F5F5;
+  border-radius: 4px;
+}
+
+.fill-heart-eye-2 {
+  position: absolute;
+  margin-top: 12px;
+  margin-left: 225px;
+}
+
+.The-North-Coat-elements {
+  position: absolute;
+  z-index: 3;
+}
+
+.The-North-Coat-img {
+  position: absolute;
+  margin-top: 49px;
+  margin-left: 44px;
+  z-index: 2;
+  width: 172px;
+  height: 152px;
+}
+
+.The-North-Coat-text {
+  position: relative;
+  top: 77%;
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.flash-sales-card-price {
+  color: #DB4444;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.flash-sales-card-old-price {
+  color: #696969;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+}
+
+.Gucci-duffle-bag {
+  width: 270px;
+  height: 350px;
+  border-radius: 5px;
+  margin-top: 31px;
+  margin-left: 25px;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.Gucci-duffle-bag:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+.Gucci-duffle-bag:hover .add-to-cart-bsp {
+  opacity: 1;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.Gucci-duffle-bag-img-part {
+  position: absolute;
+  width: 270px;
+  height: 260px;
+  background-color: #F5F5F5;
+  border-radius: 4px;
+}
+
+.fill-heart-eye-2 {
+  position: absolute;
+  margin-top: 12px;
+  margin-left: 225px;
+}
+
+.Gucci-duffle-bag-elements {
+  position: absolute;
+  z-index: 3;
+}
+
+.Gucci-duffle-bag-img {
+  position: absolute;
+  margin-top: 49px;
+  margin-left: 49px;
+  z-index: 2;
+  width: 172px;
+  height: 152px;
+}
+
+.Gucci-duffle-bag-text {
+  position: relative;
+  top: 77%;
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.flash-sales-card-price {
+  color: #DB4444;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.flash-sales-card-old-price {
+  color: #696969;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+}
+
+.RGB-liquid-CPU-Cooler {
+  width: 270px;
+  height: 350px;
+  border-radius: 5px;
+  margin-top: 31px;
+  margin-left: 25px;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.RGB-liquid-CPU-Cooler:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+.RGB-liquid-CPU-Cooler:hover .add-to-cart-bsp {
+  opacity: 1;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.RGB-liquid-CPU-Cooler-img-part {
+  position: absolute;
+  width: 270px;
+  height: 260px;
+  background-color: #F5F5F5;
+  border-radius: 4px;
+}
+
+.fill-heart-eye-2 {
+  position: absolute;
+  margin-top: 12px;
+  margin-left: 225px;
+}
+
+.RGB-liquid-CPU-Cooler-elements {
+  position: absolute;
+  z-index: 3;
+}
+
+.RGB-liquid-CPU-Cooler-img {
+  position: absolute;
+  margin-top: 49px;
+  margin-left: 49px;
+  z-index: 2;
+  width: 172px;
+  height: 152px;
+}
+
+.RGB-liquid-CPU-Cooler-text {
+  position: relative;
+  top: 77%;
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.flash-sales-card-price {
+  color: #DB4444;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.flash-sales-card-old-price {
+  color: #696969;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+}
+
+.Small-BookSelf {
+  width: 270px;
+  height: 350px;
+  border-radius: 5px;
+  margin-top: 31px;
+  margin-left: 25px;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.Small-BookSelf:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+.Small-BookSelf:hover .add-to-cart-bsp {
+  opacity: 1;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.Small-BookSelf-img-part {
+  position: absolute;
+  width: 270px;
+  height: 260px;
+  background-color: #F5F5F5;
+  border-radius: 4px;
+}
+
+.fill-heart-eye-2 {
+  position: absolute;
+  margin-top: 12px;
+  margin-left: 225px;
+}
+
+.Small-BookSelf-elements {
+  position: absolute;
+  z-index: 3;
+}
+
+.Small-BookSelf-img {
+  position: absolute;
+  margin-top: 49px;
+  margin-left: 43px;
+  z-index: 2;
+  width: 172px;
+  height: 152px;
+}
+
+.Small-BookSelf-text {
+  position: relative;
+  top: 77%;
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.flash-sales-card-price {
+  color: #DB4444;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.flash-sales-card-old-price {
+  color: #696969;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+}
+
+.banner-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.jbl-banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 140px;
+  border-radius: 5px;
+  background-color: rgb(0, 0, 0);
+  width: 1170px;
+  height: 500px;
+}
+
+.jbl-banner-text {
+  margin-right: 43px;
+}
+
+.jbl-banner-text-categories {
+  margin-top: 69px;
+  margin-left: 56px;
+  color: #0F6;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.jbl-banner-text-Enhance-ur-music-experience {
+  margin-top: 32px;
+  margin-left: 56px;
+  color: #FAFAFA;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: 1.92px;
+}
+
+.timer2 {
+  margin-top: 32px;
+  margin-left: 36px;
+}
+
+.timer2__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 48px;
+}
+
+.timer2__item {
+  position: relative;
+  min-width: 60px;
+  margin-left: 24px;
+  margin-right: 24px;
+  padding-top: 15px;
+  text-align: center;
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.timer2__item::before {
+  content: attr(data-title);
+  display: block;
+  position: absolute;
+  left: 50%;
+  bottom: -15%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  padding-bottom: 20px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.jbl-banner-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 171px;
+  height: 56px;
+  border-radius: 4px;
+  background: #0F6;
+  margin-top: 40px;
+  margin-left: 56px;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+.jbl-banner-button p {
+  color: #FAFAFA;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.jbl-banner-button:hover {
+  background-color: rgb(0, 0, 0);
+  border: solid 1px #0F6;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+.jbl-banner-button:hover p {
+  color: #0F6;
+}
+
+.bl-banner-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.our-products-top-glav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  margin-top: 70px;
+  margin-left: 70px;
+}
+
+.our-products-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.our-products-text-with-rectangle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 16px;
+}
+.our-products-text-with-rectangle p {
+  color: #DB4444;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.our-products-inscription {
+  color: #000;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 1.44px;
+  margin-top: 15px;
+}
+
+.add-to-cart-eop-1 {
+  opacity: 0;
+  margin-top: 219px;
+  width: 270px;
+  height: 41px;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  border: none;
+  border-radius: 0px 0px 4px 4px;
+  background: #000;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.add-to-cart-eop-1:hover {
+  color: #000;
+  background: #fff;
+  border: solid 1px #000;
+}
+
+.add-to-cart-eop-1:active {
+  border: solid 1px #fff;
+  background: #DB4444;
+  color: #FFF;
+}
+
+.add-to-cart-eop-2 {
+  position: absolute;
+  opacity: 0;
+  top: 219px;
+  left: 0;
+  width: 265px;
+  height: 41px;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  border: none;
+  border-radius: 0px 0px 4px 4px;
+  background: #000;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.add-to-cart-eop-2:hover {
+  color: #000;
+  background: #fff;
+  border: solid 1px #000;
+}
+
+.add-to-cart-eop-2:active {
+  border: solid 1px #fff;
+  background: #DB4444;
+  color: #FFF;
+}
+
+.our-products-cards-glav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 60px;
+}
+
+.our-products-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 1300px;
+}
+
+.Breed-Dry-Dog-Food {
+  width: 270px;
+  height: 350px;
+  border-radius: 5px;
+  margin-top: 31px;
+  margin-left: 25px;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.Breed-Dry-Dog-Food:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+.Breed-Dry-Dog-Food:hover .add-to-cart-eop-1 {
+  opacity: 1;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.Breed-Dry-Dog-Food-img-part {
+  position: absolute;
+  width: 270px;
+  height: 260px;
+  background-color: #F5F5F5;
+  border-radius: 4px;
+}
+
+.fill-heart-eye-r2 {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 226px;
+}
+
+.Breed-Dry-Dog-Food-elements {
+  position: absolute;
+  z-index: 3;
+}
+
+.Breed-Dry-Dog-Food-img {
+  position: absolute;
+  margin-top: 49px;
+  margin-left: 45px;
+  z-index: 2;
+  width: 172px;
+  height: 152px;
+}
+
+.Breed-Dry-Dog-Food-text {
+  position: relative;
+  top: 80%;
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.flash-sales-card-price {
+  color: #DB4444;
+  margin-top: 10px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.cards-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.rating-1 {
+  margin-top: 11px;
+}
+
+.CANON-EOS-DSLR-Camera {
+  width: 270px;
+  height: 350px;
+  border-radius: 5px;
+  margin-top: 31px;
+  margin-left: 25px;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.CANON-EOS-DSLR-Camera:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+.CANON-EOS-DSLR-Camera:hover .add-to-cart-eop-1 {
+  opacity: 1;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.CANON-EOS-DSLR-Camera-img-part {
+  position: absolute;
+  width: 270px;
+  height: 260px;
+  background-color: #F5F5F5;
+  border-radius: 4px;
+}
+
+.fill-heart-eye-r2 {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 226px;
+}
+
+.CANON-EOS-DSLR-Camera-elements {
+  position: absolute;
+  z-index: 3;
+}
+
+.CANON-EOS-DSLR-Camera-img {
+  position: absolute;
+  margin-top: 49px;
+  margin-left: 45px;
+  z-index: 2;
+  width: 172px;
+  height: 152px;
+}
+
+.CANON-EOS-DSLR-Camera-text {
+  position: relative;
+  top: 80%;
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.flash-sales-card-price {
+  color: #DB4444;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.cards-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.rating-1 {
+  margin-bottom: 5px;
+}
+
+.ASUS-FHD-Gaming-Laptop {
+  width: 270px;
+  height: 350px;
+  border-radius: 5px;
+  margin-top: 31px;
+  margin-left: 25px;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.ASUS-FHD-Gaming-Laptop:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+.ASUS-FHD-Gaming-Laptop:hover .add-to-cart-eop-1 {
+  opacity: 1;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.ASUS-FHD-Gaming-Laptop-img-part {
+  position: absolute;
+  width: 270px;
+  height: 260px;
+  background-color: #F5F5F5;
+  border-radius: 4px;
+}
+
+.fill-heart-eye-r2 {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 226px;
+}
+
+.ASUS-FHD-Gaming-Laptop-elements {
+  position: absolute;
+  z-index: 3;
+}
+
+.ASUS-FHD-Gaming-Laptop-img {
+  position: absolute;
+  margin-top: 49px;
+  margin-left: 45px;
+  z-index: 2;
+  width: 172px;
+  height: 152px;
+}
+
+.ASUS-FHD-Gaming-Laptop-text {
+  position: relative;
+  top: 80%;
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.flash-sales-card-price {
+  color: #DB4444;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.cards-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.rating-1 {
+  margin-bottom: 5px;
+}
+
+.Curology-Product-Set {
+  width: 270px;
+  height: 350px;
+  border-radius: 5px;
+  margin-top: 31px;
+  margin-left: 25px;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.Curology-Product-Set:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+.Curology-Product-Set:hover .add-to-cart-eop-1 {
+  opacity: 1;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.Curology-Product-Set-img-part {
+  position: absolute;
+  width: 270px;
+  height: 260px;
+  background-color: #F5F5F5;
+  border-radius: 4px;
+}
+
+.fill-heart-eye-r2 {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 226px;
+}
+
+.Curology-Product-Set-elements {
+  position: absolute;
+  z-index: 3;
+}
+
+.Curology-Product-Set-img {
+  position: absolute;
+  margin-top: 49px;
+  margin-left: 45px;
+  z-index: 2;
+  width: 172px;
+  height: 152px;
+}
+
+.Curology-Product-Set-text {
+  position: relative;
+  top: 80%;
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.flash-sales-card-price {
+  color: #DB4444;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.cards-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.rating-1 {
+  margin-bottom: 5px;
+}
+
+.Kids-Electric-Car {
+  width: 270px;
+  height: 380px;
+  border-radius: 5px;
+  margin-top: 31px;
+  margin-left: 25px;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.Kids-Electric-Car:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+.Kids-Electric-Car:hover .add-to-cart-eop-2 {
+  opacity: 1;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.Kids-Electric-Car-img-part {
+  position: absolute;
+  z-index: -9999;
+  background: #F5F5F5;
+  width: 265px;
+  height: 260px;
+  background-position: center;
+  border-radius: 5px;
+}
+
+.fill-heart-eye-r3 {
+  position: absolute;
+  top: 34%;
+  margin-left: 221px;
+}
+
+.Kids-Electric-Car-elements {
+  position: absolute;
+  z-index: 3;
+}
+
+.card-new-ico-img {
+  margin-top: 12px;
+  margin-left: 12px;
+}
+
+.Kids-Electric-Car-img {
+  position: absolute;
+  margin-top: 49px;
+  margin-left: 45px;
+  z-index: 2;
+  width: 172px;
+  height: 152px;
+}
+
+.Kids-Electric-Car-text {
+  position: relative;
+  top: 74%;
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.flash-sales-card-price {
+  color: #DB4444;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.cards-price-glav {
+  position: absolute;
+  top: 50%;
+}
+
+.cards-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 12px;
+}
+
+.Kids-Electric-Car-tumbler-glav {
+  position: absolute;
+  top: 90%;
+}
+
+.tumbler {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5px;
+}
+
+.Kids-Electric-Car-form-radio {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.Kids-Electric-Car-radio-1 {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 2px solid #FB1314;
+  background-color: #FB1314;
+  cursor: pointer;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.Kids-Electric-Car-radio-1:checked {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: 2px solid #000000;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.Kids-Electric-Car-radio-2 {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 2px solid #DB4444;
+  background-color: #DB4444;
+  cursor: pointer;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+  padding-right: 10px;
+}
+
+.Kids-Electric-Car-radio-2:checked {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: 2px solid #000000;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.Jr-Zoom-Soccer-Cleats {
+  width: 270px;
+  height: 350px;
+  border-radius: 5px;
+  margin-top: 31px;
+  margin-left: 25px;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.Jr-Zoom-Soccer-Cleats:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+.Jr-Zoom-Soccer-Cleats:hover .add-to-cart-eop-1 {
+  opacity: 1;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.Jr-Zoom-Soccer-Cleats-img-part {
+  position: absolute;
+  width: 270px;
+  height: 260px;
+  background-color: #F5F5F5;
+  border-radius: 4px;
+}
+
+.fill-heart-eye-r2 {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 226px;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.Jr-Zoom-Soccer-Cleats-elements {
+  position: absolute;
+  z-index: 3;
+}
+
+.Jr-Zoom-Soccer-Cleats-img {
+  position: absolute;
+  margin-top: 49px;
+  margin-left: 45px;
+  z-index: 2;
+  width: 172px;
+  height: 152px;
+}
+
+.Jr-Zoom-Soccer-Cleats-text {
+  position: relative;
+  top: 80%;
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.flash-sales-card-price {
+  color: #DB4444;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.cards-price-glav {
+  position: absolute;
+  top: 50%;
+}
+
+.cards-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 12px;
+}
+
+.Jr-Zoom-Soccer-Cleats-tumbler-glav {
+  position: absolute;
+  top: 240%;
+}
+
+.tumbler2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5px;
+}
+
+.Jr-Zoom-Soccer-Cleats-form-radio {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.Jr-Zoom-Soccer-Cleats-radio-1 {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 2px solid #EEFF61;
+  background-color: #EEFF61;
+  cursor: pointer;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.Jr-Zoom-Soccer-Cleats-radio-1:checked {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: 2px solid #000000;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.Jr-Zoom-Soccer-Cleats-radio-2 {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 2px solid #DB4444;
+  background-color: #DB4444;
+  cursor: pointer;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+  padding-right: 10px;
+}
+
+.Jr-Zoom-Soccer-Cleats-radio-2:checked {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: 2px solid #000000;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.GP11-Shooter-USB-Gamepad {
+  width: 270px;
+  height: 380px;
+  border-radius: 5px;
+  margin-top: 31px;
+  margin-left: 25px;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.GP11-Shooter-USB-Gamepad:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+.GP11-Shooter-USB-Gamepad:hover .add-to-cart-eop-2 {
+  opacity: 1;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.GP11-Shooter-USB-Gamepad-img-part {
+  position: absolute;
+  z-index: -9999;
+  background: #F5F5F5;
+  width: 265px;
+  height: 260px;
+  background-position: center;
+  border-radius: 5px;
+}
+
+.fill-heart-eye-r3 {
+  position: absolute;
+  top: 34%;
+  margin-left: 221px;
+}
+
+.GP11-Shooter-USB-Gamepad-elements {
+  position: absolute;
+  z-index: 3;
+}
+
+.card-new-ico-img {
+  margin-top: 12px;
+  margin-left: 12px;
+}
+
+.GP11-Shooter-USB-Gamepad-img {
+  position: absolute;
+  margin-top: 49px;
+  margin-left: 45px;
+  z-index: 2;
+  width: 172px;
+  height: 152px;
+}
+
+.GP11-Shooter-USB-Gamepad-text {
+  position: relative;
+  top: 74%;
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.flash-sales-card-price {
+  color: #DB4444;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.cards-price-glav {
+  position: absolute;
+  top: 50%;
+}
+
+.cards-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 12px;
+}
+
+.GP11-Shooter-USB-Gamepad-tumbler-glav {
+  position: absolute;
+  top: 90%;
+}
+
+.tumbler3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5px;
+}
+
+.GP11-Shooter-USB-Gamepad-form-radio {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.GP11-Shooter-USB-Gamepad-radio-1 {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 2px solid #000;
+  background-color: #000;
+  cursor: pointer;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.GP11-Shooter-USB-Gamepad-radio-1:checked {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: 2px solid #DB4444;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.GP11-Shooter-USB-Gamepad-radio-2 {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 2px solid #DB4444;
+  background-color: #DB4444;
+  cursor: pointer;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+  padding-right: 10px;
+}
+
+.GP11-Shooter-USB-Gamepad-radio-2:checked {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: 2px solid #000000;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.Quilted-Satin-Jacket {
+  width: 270px;
+  height: 350px;
+  border-radius: 5px;
+  margin-top: 31px;
+  margin-left: 25px;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.Quilted-Satin-Jacket:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+.Quilted-Satin-Jacket:hover .add-to-cart-eop-1 {
+  opacity: 1;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.Quilted-Satin-Jacket-img-part {
+  position: absolute;
+  width: 270px;
+  height: 260px;
+  background-color: #F5F5F5;
+  border-radius: 4px;
+}
+
+.fill-heart-eye2 {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 226px;
+}
+
+.Quilted-Satin-Jacket-elements {
+  position: absolute;
+  z-index: 3;
+}
+
+.Quilted-Satin-Jacket-img {
+  position: absolute;
+  margin-top: 49px;
+  margin-left: 45px;
+  z-index: 2;
+  width: 172px;
+  height: 152px;
+}
+
+.Quilted-Satin-Jacket-text {
+  position: relative;
+  top: 80%;
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.flash-sales-card-price {
+  color: #DB4444;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.cards-price-glav {
+  position: absolute;
+  top: 50%;
+}
+
+.cards-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 12px;
+}
+
+.Quilted-Satin-Jacket-tumbler-glav {
+  position: absolute;
+  top: 255%;
+}
+
+.tumbler4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5px;
+}
+
+.Quilted-Satin-Jacket-form-radio {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.Quilted-Satin-Jacket-radio-1 {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 2px solid #184A48;
+  background-color: #184A48;
+  cursor: pointer;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.Quilted-Satin-Jacket-radio-1:checked {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: 2px solid #DB4444;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.Quilted-Satin-Jacket-radio-2 {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 2px solid #DB4444;
+  background-color: #DB4444;
+  cursor: pointer;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+  padding-right: 10px;
+}
+
+.Quilted-Satin-Jacket-radio-2:checked {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: 2px solid #000000;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.view-all-products-button2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 60px;
+}
+
+.view-all-products-button2-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 234px;
+  height: 56px;
+  border-radius: 4px;
+  background-color: #DB4444;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+.view-all-products-button2-wrapper p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #FAFAFA;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.view-all-products-button2-wrapper:hover {
+  background-color: #fff;
+  border: solid 1px #DB4444;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+.view-all-products-button2-wrapper:hover p {
+  color: #DB4444;
+}
+
+.New-Arrival-top-glav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  margin-top: 70px;
+  margin-left: 70px;
+}
+
+.New-Arrival-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.New-Arrival-text-with-rectangle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 16px;
+}
+.New-Arrival-text-with-rectangle p {
+  color: #DB4444;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.New-Arrival-inscription {
+  color: #000;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 1.44px;
+  margin-top: 15px;
+}
+
+.New-Arrival-Cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 60px;
+}
+
+.New-Arrival-Cards-parent {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 30px 1fr 30px 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: 1fr 30px 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  width: 1170px;
+}
+
+.New-Arrival-Cards-parent > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+
+.New-Arrival-Cards-parent > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+}
+
+.New-Arrival-Cards-parent > *:nth-child(3) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 5;
+}
+
+.New-Arrival-Cards-parent > *:nth-child(4) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+}
+
+.New-Arrival-Cards-parent > *:nth-child(5) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+}
+
+.New-Arrival-Cards-parent > *:nth-child(6) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 5;
+}
+
+.PS5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  width: 570px;
+  height: 600px;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 1/1/3/2;
+  background: url(content-bg/New-Arrival-Cards/PS5.png);
+}
+
+.Women {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  width: 570px;
+  height: 284px;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: 1/2/2/4;
+  background: url(content-bg/New-Arrival-Cards/Women.png);
+}
+
+.Speaker {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  width: 270px;
+  height: 284px;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 2/2/3/3;
+  background: url(content-bg/New-Arrival-Cards/Speaker.png);
+}
+
+.Gucci-Perfume {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  width: 270px;
+  height: 284px;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-area: 2/3/3/4;
+  background: url(content-bg/New-Arrival-Cards/Gucci-Perfume.png);
+}
+
+.PS5-info {
+  margin-left: 32px;
+  margin-bottom: 80px;
+  height: 82px;
+}
+.PS5-info a {
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.PS5-Header {
+  color: #FAFAFA;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.72px;
+  margin-bottom: 16px;
+}
+
+.PS5-Discription {
+  color: #FAFAFA;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  margin-bottom: 16px;
+}
+
+.Women-info {
+  margin-left: 32px;
+  margin-bottom: 65px;
+  height: 82px;
+}
+.Women-info a {
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.Women-Header {
+  color: #FAFAFA;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.72px;
+  margin-bottom: 16px;
+}
+
+.Women-Discription {
+  color: #FAFAFA;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  margin-bottom: 16px;
+}
+
+.Speaker-info {
+  margin-left: 22px;
+  margin-bottom: 40px;
+  height: 82px;
+}
+.Speaker-info a {
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.Speaker-Header {
+  color: #FAFAFA;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.72px;
+  margin-bottom: 16px;
+}
+
+.Speaker-Discription {
+  color: #FAFAFA;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  margin-bottom: 16px;
+}
+
+.Gucci-Perfume-info {
+  margin-left: 22px;
+  margin-bottom: 40px;
+  height: 82px;
+}
+.Gucci-Perfume-info a {
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.Gucci-Perfume-Header {
+  color: #FAFAFA;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.72px;
+  margin-bottom: 16px;
+}
+
+.Gucci-Perfume-Discription {
+  color: #FAFAFA;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  margin-bottom: 16px;
+}
+
+.service-ads {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 140px;
+  gap: 88px;
+}
+
+.delivery {
+  width: 249px;
+  height: 161px;
+  background: url(content-bg/service/fast-delivery.png);
+}
+
+.customer-24-7 {
+  width: 262px;
+  height: 161px;
+  background: url(content-bg/service/customer.png);
+}
+
+.money-back {
+  width: 256px;
+  height: 161px;
+  background: url(content-bg/service/money-back.png);
+}
+
+.ontop-button-glav {
+  margin-top: 62px;
+  margin-right: 50px;
+  margin-bottom: 32px;
+}
+
+.ontop-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#ontopbtn {
+  width: 46px;
+  height: 46px;
+  background: url(content-bg/ontop-button/Fill-with-Up-Arrow.svg);
+  background-position: center;
+  border: none;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+#ontopbtn:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}

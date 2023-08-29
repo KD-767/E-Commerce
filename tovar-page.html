@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <!-- это черная верхушка -->
+        <div class="top-notification">
+
+            <p>Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!</p>
+            <a href="#">ShopNow</a>
+
+        <!-- это кнопка смены языка в черной верхушке -->
+            <div class="lang-switch">
+            <p>English</p>
+            <img src="content/header/DropDown.svg" alt="">
+            </div>
+
+        </div>
+
+        <!-- навигация -->
+        <nav>
+            <p class="Exclusive">Exclusive</p>
+
+            <!-- кнопки навигации -->
+            <div class="navnav">
+                <a href="index.html">Home</a>
+                <a href="contact.html">Contact</a>
+                <a href="about.html">About</a>
+                <a href="signup-page.html">Sign Up</a>
+            </div>
+
+
+            <!-- это поиск и иконки сердца и корзины возле поиска -->
+            <div class="wishlist-and-cart-icon">            
+            <input class="nav-search" type="text" placeholder="What are you looking for?">
+            <a href="wishlist.html"><img class="wishlist-icon" src="content/header/nav/Wishlist.svg" alt=""></a>
+            <a href="cart.html"><img class="Cart1-with-buy-icon" src="content/header/nav/Cart1-with-buy.svg" alt=""></a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="directory-home-havic">
+        <a href="index.html">Home</a>
+        <p class="slash">/</p>
+        <p class="directory-home-havic-text">Havic HV G-92 Gamepad</p>
+    </div>
+    
+    <main>
+        <div class="ps-card-glav">
+            <div class="ps-card">
+                <div class="ps-card-img1">
+                    <img src="content/tovar-page/ps-picture/ps-column-1.png" alt="">
+                </div>
+
+                <div class="ps-card-img2">
+                    <img src="content/tovar-page/ps-picture/ps-column-2.png" alt="">
+                </div>
+
+                <div class="ps-card-img3">
+                    <img src="content/tovar-page/ps-picture/ps-column-3.png" alt="">
+                </div>
+
+                <div class="ps-card-img4">
+                    <img src="content/tovar-page/ps-picture/ps-column-4.png" alt="">
+                </div>
+
+                <div class="ps-card-img5">
+                    <img src="content/tovar-page/ps-picture/ps-main.png" alt="">
+                </div>
+            </div>
+
+            <div class="ps-card-info">
+                <p class="ps-card-text1">Havic HV G-92 Gamepad</p>
+                <img src="content/tovar-page/ps-picture/rating.svg" alt="">
+                <p class="ps-card-text2">$192.00</p>
+                <p class="ps-card-text3">PlayStation 5 Controller Skin High quality vinyl with air <br> channel adhesive for easy bubble <br> free install & mess free removal Pressure sensitive.</p>
+                
+                <div class="ps-card-color-switch">
+                    <p class="ps-card-text4">Colours:</p>
+
+                    <div class="tumbler3">
+                        <div class="GP11-Shooter-USB-Gamepad-form_radio">
+                            <input class="GP11-Shooter-USB-Gamepad-radio-1" type="radio" name="radio3" value="1" id="radio-1" checked>
+                        </div>
+                
+                        <div class="form-radio">
+                            <input class="GP11-Shooter-USB-Gamepad-radio-2" type="radio" name="radio3" value="2" id="radio-2">
+                        </div>
+                    </div>
+                </div>
+            <div class="ps-card-size">
+                <p class="ps-card-text5">Size:</p>
+                <div class="ps-card-size-radio">
+                    <div class="ps-form_radio_btn">
+                        <input id="radio-50" type="radio" name="radio" value="50" checked>
+                        <label for="radio-50">XS</label>
+                    </div>
+                     
+                    <div class="ps-form_radio_btn">
+                        <input id="radio-51" type="radio" name="radio" value="51">
+                        <label for="radio-51">S</label>
+                    </div>
+                     
+                    <div class="ps-form_radio_btn">
+                        <input id="radio-52" type="radio" name="radio" value="52">
+                        <label for="radio-52">M</label>
+                    </div>
+                     
+                    <div class="ps-form_radio_btn">
+                        <input id="radio-53" type="radio" name="radio" value="53">
+                        <label for="radio-53">L</label>
+                    </div>
+
+                    <div class="ps-form_radio_btn">
+                        <input id="radio-54" type="radio" name="radio" value="54">
+                        <label for="radio-54">XL</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ps-counter-glav">
+            <div class="ps-counter">
+                <button class="ps-button-counter1" onclick="decreaseCountps()">-</button>
+                <span id="counter">0</span>
+                <button class="ps-button-counter2" onclick="increaseCountps()">+</button>
+    
+                <script>
+                    let count = 0;
+                    const counterElement = document.querySelector("#counter");
+            
+                    function increaseCountps() {
+                        count++;
+                        updateCounter();
+                    }
+            
+                    function decreaseCountps() {
+                        if (count > 0) {
+                        count--;
+                        updateCounter();
+                        }
+                    }
+                    
+                    function updateCounter() {
+                        counterElement.textContent = count;
+                    }
+                </script>
+            </div> 
+
+            <button class="ps-counter-acc-button">Buy Now</button>
+
+            <button class="ps-counter-fav-button">
+                <img class="ps-fav-ico-black" src="content/tovar-page/ico2/Wishlist.svg" alt="">
+                <img class="ps-fav-ico-white" src="content/tovar-page/ico2/Wishlist(white).svg" alt="">
+            </button>
+
+            </div> 
+            
+            <img class="ps-delivery" src="content/tovar-page/ico/icoico.svg" alt="">
+
+            </div>
+        </div>
+        
+
+        <div class="ps-text-with-rectangle">
+            <div class="red-rectangle"></div>
+            <p>Related item</p>
+        </div>
+
+    <div class="ps-tovar-glav">
+        <div class="ps-tovar">
+            <!-- Первая карта -->
+            <div class="HAVIT-HV-G92-Gamepad">
+                
+                <div class="HAVIT-HV-G92-Gamepad-img-part">
+
+                    <div class="HAVIT-HV-G92-Gamepad-elements">
+
+                    <img class="card-discount-img" src="content/main/Flash-Sales-Cards/HAVIT-HV-G92-Gamepad/discount-40-percent.svg" alt="">   
+
+                    <div class="fill-heart-eye">
+                    <img class="fill-heart" src="content/main/Flash-Sales-Cards/Cards-Elements/Fill-Heart.svg" alt="">
+                    <img class="fill-eye" src="content/main/Flash-Sales-Cards/Cards-Elements/Fill-Eye.svg" alt="">
+                    </div> 
+
+                    <button data-product-id="1" class="add-to-cart-fh">Add To Cart</button>
+
+                    </div>
+
+                    <a href="tovar-page.html"><img class="HAVIT-HV-G92-Gamepad-img" src="content/main/Flash-Sales-Cards/HAVIT-HV-G92-Gamepad/HAVIT-HV-G92-Gamepad.svg" alt=""></a>
+                </div>
+
+                <div class="HAVIT-HV-G92-Gamepad-text">
+                    <p>HAVIT HV-G92 Gamepad</p>
+
+                    <div class="cards-price">
+                    <p class="flash-sales-card-price">$120</p>
+                    <p class="flash-sales-card-old-price">$160</p>
+                    </div>
+
+                    <img src="content/main/Flash-Sales-Cards/HAVIT-HV-G92-Gamepad/rating.svg" alt="">
+                </div>     
+            </div>
+
+            <!-- Вторая карта -->
+            <div class="AK-900-Wired-Keyboard">
+                
+                <div class="AK-900-Wired-Keyboard-img-part">
+
+                    <div class="AK-900-Wired-Keyboard-elements">
+
+                    <img class="card-discount-img" src="content/main/Flash-Sales-Cards/AK-900-Wired-Keyboard/discount-35-percents.svg" alt="">   
+
+                    <div class="fill-heart-eye">
+                        <img class="fill-heart" src="content/main/Flash-Sales-Cards/Cards-Elements/Fill-Heart.svg" alt="">
+                        <img class="fill-eye" src="content/main/Flash-Sales-Cards/Cards-Elements/Fill-Eye.svg" alt="">
+                    </div> 
+
+                    <button data-product-id="2" class="add-to-cart-fh">Add To Cart</button>
+
+                    </div>
+
+                    <img class="AK-900-Wired-Keyboard-img" src="content/main/Flash-Sales-Cards/AK-900-Wired-Keyboard/AK-900-Wired-Keyboard.svg" alt="">
+                </div>
+
+                <div class="AK-900-Wired-Keyboard-text">
+                    <p>AK-900 Wired Keyboard</p>
+
+                    <div class="cards-price">
+                    <p class="flash-sales-card-price">$960</p>
+                    <p class="flash-sales-card-old-price">$1160</p>
+                    </div>
+
+                    <img src="content/main/Flash-Sales-Cards/AK-900-Wired-Keyboard/rating.svg" alt="">
+                </div>     
+            </div>
+            
+
+            <!-- Третья карта -->
+            <div class="IPS-LCD-Gaming-Monitor">
+                
+                <div class="IPS-LCD-Gaming-Monitor-img-part">
+
+                    <div class="IPS-LCD-Gaming-Monitor-elements">
+
+                    <img class="card-discount-img" src="content/main/Flash-Sales-Cards/IPS-LCD-Gaming-Monitor/discount-30-percent.svg" alt="">   
+
+                    <div class="fill-heart-eye">
+                        <img class="fill-heart" src="content/main/Flash-Sales-Cards/Cards-Elements/Fill-Heart.svg" alt="">
+                        <img class="fill-eye" src="content/main/Flash-Sales-Cards/Cards-Elements/Fill-Eye.svg" alt="">
+                    </div> 
+
+                    <button data-product-id="3" class="add-to-cart-fh">Add To Cart</button>
+
+                    </div>
+
+                    <img class="IPS-LCD-Gaming-Monitor-img" src="content/main/Flash-Sales-Cards/IPS-LCD-Gaming-Monitor/IPS-LCD-Gaming-Monitor.svg" alt="">
+                </div>
+
+                <div class="IPS-LCD-Gaming-Monitor-text">
+                    <p>IPS LCD Gaming Monitor</p>
+
+                    <div class="cards-price">
+                    <p class="flash-sales-card-price">$370</p>
+                    <p class="flash-sales-card-old-price">$400</p>
+                    </div>
+
+                    <img src="content/main/Flash-Sales-Cards/IPS-LCD-Gaming-Monitor/rating.svg" alt="">
+                </div>     
+            </div>
+
+
+            <div class="RGB-liquid-CPU-Cooler">
+                
+                <div class="RGB-liquid-CPU-Cooler-img-part">
+
+                    <div class="RGB-liquid-CPU-Cooler-elements">
+
+                        <div class="fill-heart-eye-2">
+                            <img class="fill-heart" src="content/main/Flash-Sales-Cards/Cards-Elements/Fill-Heart.svg" alt="">
+                            <img class="fill-eye" src="content/main/Flash-Sales-Cards/Cards-Elements/Fill-Eye.svg" alt="">
+                        </div> 
+
+                        <button data-product-id="7" class="add-to-cart-bsp">Add To Cart</button>
+
+                    </div>
+
+                    <img class="RGB-liquid-CPU-Cooler-img" src="content/main/Best-Selling-Products/RGB-Cooler/gammaxx-l240-rgb.svg" alt="">
+                </div>
+
+                <div class="RGB-liquid-CPU-Cooler-text">
+                    <p>RGB liquid CPU Cooler</p>
+
+                    <div class="cards-price">
+                    <p class="flash-sales-card-price">$160</p>
+                    <p class="flash-sales-card-old-price">$170</p>
+                    </div>
+
+                    <img src="content/main/Best-Selling-Products/RGB-Cooler/rating.svg" alt="">
+                </div>     
+            </div>
+
+            <script src="js/cart.js"></script>
+
+        </div>
+    </div>
+
+    </main>
+
+    <footer>
+
+        <div class="footer-glav">
+            <div class="Exclusive-part">
+                <p id="exc-1">Exclusive</p>
+                <p id="exc-2">Subscribe</p>
+                <p id="exc-3">Get 10% off your first order</p>
+            
+                <input type="email" placeholder="Enter your email" id="type-email">
+            </div>
+    
+            <div class="Support-part">
+                <p id="sup-1">Support</p>
+                <p id="sup-2">111 Bijoy sarani, Dhaka, <br> DH 1515, Bangladesh.</p>
+    
+                <p id="sup-email">exclusive@gmail.com</p>
+                <p id="sup-tel">+88015-88888-9999</p>
+            </div>
+    
+            <div class="Account-part">
+                <p id="acc-1">My account</p>
+                <a href="#">My Account</a>
+                <a href="signup-page.html">Login / Register</a>
+                <a href="#">Cart</a>
+                <a href="#">Wishlist</a>
+                <a href="#">Shop</a>
+            </div>
+    
+            <div class="Quick-link-part">
+                <p id="qic-1">Quick Link</p>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms Of Use</a>
+                <a href="#">FAQ</a>
+                <a href="contact.html">Contact</a>
+            </div>
+    
+            <div class="Download-part">
+                <p id="dow-1">Download App</p>
+                <p id="dow-2">Save $3 with App New User Only</p>
+    
+                <div class="download-img-part">
+                    <div class="download-img-part-parent">
+                        <div class="download-img-part-qrcode"></div>
+                        <a href="#"><div class="download-img-part-googleplay"></div></a>
+                        <a href="#"><div class="download-img-part-appstore"></div></a>
+                        </div>
+                    </div>
+    
+                    <div class="soc-net-icos">
+                        <a href="#"><img class="soc-ico" src="content/footer/soc-net-ico/Icon-Facebook.svg" alt=""></a>
+                        <a href="#"><img class="soc-ico" src="content/footer/soc-net-ico/Icon-Twitter.svg" alt=""></a>
+                        <a href="#"><img class="soc-ico" src="content/footer/soc-net-ico/icon-instagram.svg" alt=""></a>
+                        <a href="#"><img class="soc-ico" src="content/footer/soc-net-ico/Icon-Linkedin.svg" alt=""></a>
+                    </div>
+                </div>
+                </div>
+    
+                <div class="last-footer-text">
+                    <img src="content/footer/icon-copyright.svg" alt="">
+                    <p id="copi-1">Copyright Rimel 2022. All right reserved</p>
+                </div>
+    </footer>
+
+</body>
+</html>

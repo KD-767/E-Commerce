@@ -1,0 +1,1064 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <!-- это черная верхушка -->
+        <div class="top-notification">
+
+            <p>Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!</p>
+            <a href="#">ShopNow</a>
+
+        <!-- это кнопка смены языка в черной верхушке -->
+            <div class="lang-switch">
+            <p>English</p>
+            <img src="content/header/DropDown.svg" alt="">
+            </div>
+
+        </div>
+
+        <!-- навигация -->
+        <nav>
+            <p class="Exclusive">Exclusive</p>
+
+            <!-- кнопки навигации -->
+            <div class="navnav">
+                <a href="index.html">Home</a>
+                <a href="contact.html">Contact</a>
+                <a href="about.html">About</a>
+                <a href="signup-page.html">Sign Up</a>
+            </div>
+
+
+            <!-- это поиск и иконки сердца и корзины возле поиска -->
+            <div class="wishlist-and-cart-icon">            
+            <input class="nav-search" type="text" placeholder="What are you looking for?">
+            <a href="wishlist.html"><img class="wishlist-icon" src="content/header/nav/Wishlist.svg" alt=""></a>
+            <a href="cart.html"><img class="Cart1-with-buy-icon" src="content/header/nav/Cart1-with-buy.svg" alt=""></a>
+            </div>
+        </nav>
+
+        <div class="vernav-w-slider">
+        <!-- вертикальная навигация (та, что находится под надписью "Exclusive") -->
+        <div class="vertical-nav">
+            <!-- кнопка Womans's Fashion (создана, чтоб поместить к ней стрелку вправо) -->
+            <div class="womans-fashion"><a href="#">Womans's Fashion</a> <img src="content/header/nav/strela-vpravo.svg" alt=""></div>
+
+            <!-- кнопка Men's Fashion (создана, чтоб поместить к ней стрелку вправо) -->
+            <div class="mens-fashion"><a href="#">Men's Fashion</a> <img src="content/header/nav/strela-vpravo.svg" alt=""></div>
+
+            <!-- кнопки вертикальной навигации -->
+            <a href="#">Electronics</a>
+            <a href="#">Home & Lifestyle</a>
+            <a href="#">Medicine</a>
+            <a href="#">Sports & Outdoor</a>
+            <a href="#">Babys & Toys</a>
+            <a href="#">Groceries & Pets</a>
+            <a href="#">Health & Beaty</a>
+        </div>
+
+        <!-- Слайдер изображений (iPhone 14 & Women) -->
+        <div class="glav-slider">
+
+            <section class="splide" aria-label="Splide Basic HTML Example">
+                <div class="splide__track">
+                      <ul class="splide__list">
+                          <li class="splide__slide"><a href="#"><img src="content/header/slider-img/iPhone14.svg" alt="" style="width: 900px; height: 480px;"></a></li>
+                          <li class="splide__slide"><a href="#"><img src="content/header/slider-img/women.svg" alt="" style="width: 900px; height: 383px;"></a></li>
+                      </ul>
+                </div>
+              </section>
+
+              <!-- Скрипт слайдера -->
+              <script src="lib/splide-4.1.3/dist/js/splide.min.js"></script>
+
+              <script>
+                 document.addEventListener( 'DOMContentLoaded', function() {
+                var splide = new Splide( '.splide' );
+                splide.mount();
+                } );
+      
+                new Splide( '.splide', {
+                rewind      : true,
+                rewindByDrag: true,
+                
+                } );
+              </script>
+
+        </div>
+
+        </div>
+    </header>
+
+    <main>
+        <!-- Верхний блок "Flash Sales" -->
+        <div class="Flash-Sales-Top">
+
+                <div class="Todays-FlashSales">
+                    <!-- Красный прямоугольник и надпись "Today's" -->
+                    <div class="Todays">
+                        <!-- Красный прямоугольник, возле надписи "Today's" -->
+                        <div class="red-rectangle"></div>
+                        <p>Today's</p>
+                    </div>
+                    
+                    <p class="flashsales-inscription">Flash Sales</p>
+            </div>
+
+            <!-- Таймер -->
+            <div class="timer">
+                <div class="timer__items">
+                  <div class="timer__item timer__days">00</div>
+                  <div class="timer__item timer__hours">00</div>
+                  <div class="timer__item timer__minutes">00</div>
+                  <div class="timer__item timer__seconds">00</div>
+                </div>
+              </div>
+              <!-- Скрипт таймера -->
+              <script src="js/timer.js"></script>
+        </div>
+
+        <!-- Карточки товаров "Flash Sales" -->
+        <div class="Flash-Sales-Card">
+
+            <!-- Первая карта -->
+            <div class="HAVIT-HV-G92-Gamepad">
+                
+                <div class="HAVIT-HV-G92-Gamepad-img-part">
+
+                    <div class="HAVIT-HV-G92-Gamepad-elements">
+
+                    <img class="card-discount-img" src="content/main/Flash-Sales-Cards/HAVIT-HV-G92-Gamepad/discount-40-percent.svg" alt="">   
+
+                    <div class="fill-heart-eye">
+                    <img class="fill-heart" src="content/main/Flash-Sales-Cards/Cards-Elements/Fill-Heart.svg" alt="">
+                    <img class="fill-eye" src="content/main/Flash-Sales-Cards/Cards-Elements/Fill-Eye.svg" alt="">
+                    </div> 
+
+                    <button data-product-id="1" class="add-to-cart-fh">Add To Cart</button>
+
+                    </div>
+
+                    <a href="tovar-page.html"><img class="HAVIT-HV-G92-Gamepad-img" src="content/main/Flash-Sales-Cards/HAVIT-HV-G92-Gamepad/HAVIT-HV-G92-Gamepad.svg" alt=""></a>
+                </div>
+
+                <div class="HAVIT-HV-G92-Gamepad-text">
+                    <p>HAVIT HV-G92 Gamepad</p>
+
+                    <div class="cards-price">
+                    <p class="flash-sales-card-price">$120</p>
+                    <p class="flash-sales-card-old-price">$160</p>
+                    </div>
+
+                    <img src="content/main/Flash-Sales-Cards/HAVIT-HV-G92-Gamepad/rating.svg" alt="">
+                </div>     
+            </div>
+
+            <!-- Вторая карта -->
+            <div class="AK-900-Wired-Keyboard">
+                
+                <div class="AK-900-Wired-Keyboard-img-part">
+
+                    <div class="AK-900-Wired-Keyboard-elements">
+
+                    <img class="card-discount-img" src="content/main/Flash-Sales-Cards/AK-900-Wired-Keyboard/discount-35-percents.svg" alt="">   
+
+                    <div class="fill-heart-eye">
+                        <img class="fill-heart" src="content/main/Flash-Sales-Cards/Cards-Elements/Fill-Heart.svg" alt="">
+                        <img class="fill-eye" src="content/main/Flash-Sales-Cards/Cards-Elements/Fill-Eye.svg" alt="">
+                    </div> 
+
+                    <button data-product-id="2" class="add-to-cart-fh">Add To Cart</button>
+
+                    </div>
+
+                    <img class="AK-900-Wired-Keyboard-img" src="content/main/Flash-Sales-Cards/AK-900-Wired-Keyboard/AK-900-Wired-Keyboard.svg" alt="">
+                </div>
+
+                <div class="AK-900-Wired-Keyboard-text">
+                    <p>AK-900 Wired Keyboard</p>
+
+                    <div class="cards-price">
+                    <p class="flash-sales-card-price">$960</p>
+                    <p class="flash-sales-card-old-price">$1160</p>
+                    </div>
+
+                    <img src="content/main/Flash-Sales-Cards/AK-900-Wired-Keyboard/rating.svg" alt="">
+                </div>     
+            </div>
+            
+
+            <!-- Третья карта -->
+            <div class="IPS-LCD-Gaming-Monitor">
+                
+                <div class="IPS-LCD-Gaming-Monitor-img-part">
+
+                    <div class="IPS-LCD-Gaming-Monitor-elements">
+
+                    <img class="card-discount-img" src="content/main/Flash-Sales-Cards/IPS-LCD-Gaming-Monitor/discount-30-percent.svg" alt="">   
+
+                    <div class="fill-heart-eye">
+                        <img class="fill-heart" src="content/main/Flash-Sales-Cards/Cards-Elements/Fill-Heart.svg" alt="">
+                        <img class="fill-eye" src="content/main/Flash-Sales-Cards/Cards-Elements/Fill-Eye.svg" alt="">
+                    </div> 
+
+                    <button data-product-id="3" class="add-to-cart-fh">Add To Cart</button>
+
+                    </div>
+
+                    <img class="IPS-LCD-Gaming-Monitor-img" src="content/main/Flash-Sales-Cards/IPS-LCD-Gaming-Monitor/IPS-LCD-Gaming-Monitor.svg" alt="">
+                </div>
+
+                <div class="IPS-LCD-Gaming-Monitor-text">
+                    <p>IPS LCD Gaming Monitor</p>
+
+                    <div class="cards-price">
+                    <p class="flash-sales-card-price">$370</p>
+                    <p class="flash-sales-card-old-price">$400</p>
+                    </div>
+
+                    <img src="content/main/Flash-Sales-Cards/IPS-LCD-Gaming-Monitor/rating.svg" alt="">
+                </div>     
+            </div>
+
+
+            <!-- Четвертая карта -->
+            <div class="S-Series-Comfort-Chair">
+                
+                <div class="S-Series-Comfort-Chair-img-part">
+
+                    <div class="S-Series-Comfort-Chair-elements">
+
+                    <img class="card-discount-img" src="content/main/Flash-Sales-Cards/S-Series-Comfort-Chair/discount-25-percent.svg" alt="">   
+                    
+                    <div class="fill-heart-eye">
+                        <img class="fill-heart" src="content/main/Flash-Sales-Cards/Cards-Elements/Fill-Heart.svg" alt="">
+                        <img class="fill-eye" src="content/main/Flash-Sales-Cards/Cards-Elements/Fill-Eye.svg" alt="">
+                        </div> 
+
+                        <button data-product-id="4" class="add-to-cart-fh">Add To Cart</button>
+
+                    </div>
+
+                    <img class="S-Series-Comfort-Chair-img" src="content/main/Flash-Sales-Cards/S-Series-Comfort-Chair/S-Series-Comfort-Chair.svg" alt="">
+                </div>
+
+                <div class="S-Series-Comfort-Chair-text">
+                    <p>S-Series Comfort Chair</p>
+
+                    <div class="cards-price">
+                    <p class="flash-sales-card-price">$375</p>
+                    <p class="flash-sales-card-old-price">$400</p>
+                    </div>
+
+                    <img src="content/main/Flash-Sales-Cards/S-Series-Comfort-Chair/rating.svg" alt="">
+                </div>     
+            </div>
+
+
+            <!-- Пятая карточка -->
+            <div class="S-Series-Comfort-Chair">
+                
+                <div class="S-Series-Comfort-Chair-img-part">
+
+                    <div class="S-Series-Comfort-Chair-elements">
+
+                    <img class="card-discount-img" src="content/main/Flash-Sales-Cards/S-Series-Comfort-Chair/discount-25-percent.svg" alt="">   
+
+                    <div class="fill-heart-eye">
+                        <img class="fill-heart" src="content/main/Flash-Sales-Cards/Cards-Elements/Fill-Heart.svg" alt="">
+                        <img class="fill-eye" src="content/main/Flash-Sales-Cards/Cards-Elements/Fill-Eye.svg" alt="">
+                    </div> 
+
+                    <button data-product-id="4" class="add-to-cart-fh">Add To Cart</button>
+
+                    </div>
+
+                    <img class="S-Series-Comfort-Chair-img" src="content/main/Flash-Sales-Cards/S-Series-Comfort-Chair/S-Series-Comfort-Chair.svg" alt="">
+                </div>
+
+                <div class="S-Series-Comfort-Chair-text">
+                    <p>S-Series Comfort Chair</p>
+
+                    <div class="cards-price">
+                    <p class="flash-sales-card-price">$375</p>
+                    <p class="flash-sales-card-old-price">$400</p>
+                    </div>
+
+                    <img src="content/main/Flash-Sales-Cards/S-Series-Comfort-Chair/rating.svg" alt="">
+                </div>     
+            </div>
+
+
+            <!-- Шестая карточка -->
+            <div class="S-Series-Comfort-Chair">
+                
+                <div class="S-Series-Comfort-Chair-img-part">
+
+                    <div class="S-Series-Comfort-Chair-elements">
+
+                    <img class="card-discount-img" src="content/main/Flash-Sales-Cards/S-Series-Comfort-Chair/discount-25-percent.svg" alt="">   
+
+                    <div class="fill-heart-eye">
+                        <img class="fill-heart" src="content/main/Flash-Sales-Cards/Cards-Elements/Fill-Heart.svg" alt="">
+                        <img class="fill-eye" src="content/main/Flash-Sales-Cards/Cards-Elements/Fill-Eye.svg" alt="">
+                    </div> 
+
+                    <button data-product-id="4" class="add-to-cart-fh">Add To Cart</button>
+
+                    </div>
+
+                    <img class="S-Series-Comfort-Chair-img" src="content/main/Flash-Sales-Cards/S-Series-Comfort-Chair/S-Series-Comfort-Chair.svg" alt="">
+                </div>
+
+                <div class="S-Series-Comfort-Chair-text">
+                    <p>S-Series Comfort Chair</p>
+
+                    <div class="cards-price">
+                    <p class="flash-sales-card-price">$375</p>
+                    <p class="flash-sales-card-old-price">$400</p>
+                    </div>
+
+                    <img src="content/main/Flash-Sales-Cards/S-Series-Comfort-Chair/rating.svg" alt="">
+                </div>     
+            </div>
+
+
+        </div>
+
+        <a href="#"><div class="view-all-products-button">
+            <div class="view-all-products-button-wrapper"><p>View All Products</p></div>
+        </div>
+        </a>
+
+        <div class="categories">
+
+            <div class="categories-top">
+                <div class="categories-text-with-rectangle">
+                    <div class="red-rectangle"></div>
+                    <p>Categories</p>
+                </div>
+
+                <p class="categories-inscription">Browse By Category</p>
+            </div>
+
+            <div class="categories-cards">
+                
+                <a href="#"><div class="category">
+                    <img class="cat-ico" src="content/main/Categories/Category-Phone.svg" alt="">
+                    <img class="cat-ico-hhh" src="content/main/Categories/Category-Phone-hover.svg" alt="">
+                    <p>Phones</p>
+                </div>
+                </a>
+
+                <a href="#"><div class="category">
+                    <img class="cat-ico" src="content/main/Categories/Category-Computer.svg" alt="">
+                    <img class="cat-ico-hhh" src="content/main/Categories/Category-Computer-hover.svg" alt="">
+                    <p>Computer</p>
+                </div>
+                </a>
+
+                <a href="#"><div class="category">
+                    <img class="cat-ico" src="content/main/Categories/Category-SmartWatch.svg" alt="">
+                    <img class="cat-ico-hhh" src="content/main/Categories/Category-SmartWatch-hover.svg" alt="">
+                    <p>SmartWatch</p>
+                </div>
+                </a>
+
+                <a href="#"><div class="category">
+                    <img class="cat-ico" src="content/main/Categories/Category-Camera.svg" alt="">
+                    <img class="cat-ico-hhh" src="content/main/Categories/Category-Camera-hover.svg" alt="">
+                    <p>Camera</p>
+                </div>
+                </a>
+
+                <a href="#"><div class="category">
+                    <img class="cat-ico" src="content/main/Categories/Category-Headphone.svg" alt="">
+                    <img class="cat-ico-hhh" src="content/main/Categories/Category-Headphone-hover.svg" alt="">
+                    <p>HeadPhones</p>
+                </div>
+                </a>
+
+                <a href="#"><div class="category">
+                    <img class="cat-ico" src="content/main/Categories/Category-Gamepad.svg" alt="">
+                    <img class="cat-ico-hhh" src="content/main/Categories/Category-Gamepad-hover.svg" alt="">
+                    <p>Gaming</p>
+                </div>
+                </a>
+
+            </div>
+        </div>
+
+
+        <div class="Best-Selling-Products">
+
+            <div class="Best-Selling-Products-top-glav">
+            <div class="Best-Selling-Products-top">
+                <div class="Best-Selling-Products-text-with-rectangle">
+                    <div class="red-rectangle"></div>
+                    <p>This Month</p>
+                </div>
+
+                <p class="Best-Selling-Products-inscription">Best Selling Products</p>
+        </div>
+    
+        <a href="#"><div class="view-all-button">
+            <p>View All</p>
+        </div>
+        </a>
+    </div>
+
+    <div class="Best-Selling-Products-Cards">
+
+        <div class="Best-Selling-Products-cards">
+
+            <div class="The-North-Coat">
+                
+                <div class="The-North-Coat-img-part">
+
+                    <div class="The-North-Coat-elements">
+
+                    <div class="fill-heart-eye-2">
+                    <img class="fill-heart" src="content/main/Flash-Sales-Cards/Cards-Elements/Fill-Heart.svg" alt="">
+                    <img class="fill-eye" src="content/main/Flash-Sales-Cards/Cards-Elements/Fill-Eye.svg" alt="">
+                    </div> 
+
+                    <button data-product-id="5" class="add-to-cart-bsp">Add To Cart</button>
+
+                    </div>
+
+                    <img class="The-North-Coat-img" src="content/main/Best-Selling-Products/The-North-Face-x-Gucci/The-North-Face-x-Gucci-coat.svg" alt="">
+                </div>
+
+
+                <div class="The-North-Coat-text">
+                    <p>The north coat</p>
+
+                    <div class="cards-price">
+                    <p class="flash-sales-card-price">$260</p>
+                    <p class="flash-sales-card-old-price">$360</p>
+                    </div>
+
+                    <img src="content/main/Best-Selling-Products/The-North-Face-x-Gucci/rating.svg" alt="">
+                </div>     
+            </div>
+
+
+            <div class="Gucci-duffle-bag">
+                
+                <div class="Gucci-duffle-bag-img-part">
+
+                    <div class="Gucci-duffle-bag-elements">
+
+                        <div class="fill-heart-eye-2">
+                            <img class="fill-heart" src="content/main/Flash-Sales-Cards/Cards-Elements/Fill-Heart.svg" alt="">
+                            <img class="fill-eye" src="content/main/Flash-Sales-Cards/Cards-Elements/Fill-Eye.svg" alt="">
+                        </div> 
+
+                        <button data-product-id="6" class="add-to-cart-bsp">Add To Cart</button>
+
+                    </div>
+
+                    <img class="Gucci-duffle-bag-img" src="content/main/Best-Selling-Products/Gucci-duffle-bag/Gucci-Savoy-medium-duffle-bag.svg" alt="">
+                </div>
+
+                <div class="Gucci-duffle-bag-text">
+                    <p>Gucci duffle bag</p>
+
+                    <div class="cards-price">
+                    <p class="flash-sales-card-price">$960</p>
+                    <p class="flash-sales-card-old-price">$1160</p>
+                    </div>
+
+                    <img src="content/main/Best-Selling-Products/Gucci-duffle-bag/rating.svg" alt="">
+                </div>     
+            </div>
+
+
+            <div class="RGB-liquid-CPU-Cooler">
+                
+                <div class="RGB-liquid-CPU-Cooler-img-part">
+
+                    <div class="RGB-liquid-CPU-Cooler-elements">
+
+                        <div class="fill-heart-eye-2">
+                            <img class="fill-heart" src="content/main/Flash-Sales-Cards/Cards-Elements/Fill-Heart.svg" alt="">
+                            <img class="fill-eye" src="content/main/Flash-Sales-Cards/Cards-Elements/Fill-Eye.svg" alt="">
+                        </div> 
+
+                        <button data-product-id="7" class="add-to-cart-bsp">Add To Cart</button>
+
+                    </div>
+
+                    <img class="RGB-liquid-CPU-Cooler-img" src="content/main/Best-Selling-Products/RGB-Cooler/gammaxx-l240-rgb.svg" alt="">
+                </div>
+
+                <div class="RGB-liquid-CPU-Cooler-text">
+                    <p>RGB liquid CPU Cooler</p>
+
+                    <div class="cards-price">
+                    <p class="flash-sales-card-price">$160</p>
+                    <p class="flash-sales-card-old-price">$170</p>
+                    </div>
+
+                    <img src="content/main/Best-Selling-Products/RGB-Cooler/rating.svg" alt="">
+                </div>     
+            </div>
+
+
+            <div class="Small-BookSelf">
+                
+                <div class="Small-BookSelf-img-part">
+
+                    <div class="Small-BookSelf-elements">
+
+                        <div class="fill-heart-eye-2">
+                            <img class="fill-heart" src="content/main/Flash-Sales-Cards/Cards-Elements/Fill-Heart.svg" alt="">
+                            <img class="fill-eye" src="content/main/Flash-Sales-Cards/Cards-Elements/Fill-Eye.svg" alt="">
+                        </div> 
+
+                        <button data-product-id="8" class="add-to-cart-bsp">Add To Cart</button>
+
+                    </div>
+
+                    <img class="Small-BookSelf-img" src="content/main/Best-Selling-Products/Small-Bookself/small-bookself.svg" alt="">
+                </div>
+
+                <div class="Small-BookSelf-text">
+                    <p>RGB liquid CPU Cooler</p>
+
+                    <div class="cards-price">
+                    <p class="flash-sales-card-price">$360</p>
+                    </div>
+
+                    <img src="content/main/Best-Selling-Products/Small-Bookself/rating.svg" alt="">
+                </div>     
+            </div>
+
+        </div>
+        </div>
+
+        <div class="banner-1">
+            <div class="jbl-banner">
+                <div class="jbl-banner-text">
+                    <p class="jbl-banner-text-categories">Categories</p>
+
+                    <p class="jbl-banner-text-Enhance-ur-music-experience">Enhance Your <br> Music Experience</p>
+
+                    <div class="jbl-banner-timer">
+                        <div class="timer2">
+                            <div class="timer2__items">
+                              <div class="timer2__item timer2__days">00</div>
+                              <div class="timer2__item timer2__hours">00</div>
+                              <div class="timer2__item timer2__minutes">00</div>
+                              <div class="timer2__item timer2__seconds">00</div>
+                            </div>
+                          </div>
+
+                          <script src="js/timer2.js"></script>
+                    </div>
+
+                    <div class="jbl-banner-button">
+                        <p>Buy Now!</p>
+                    </div>
+                    
+                </div>
+
+                <img class="jbl-banner-img" src="content/main/Banner/JBL-Banner/JBL-BOOMBOX2.svg" alt="" style="width: 568px; height: 330px;">
+            </div>
+        </div>
+
+
+        <div class="our-products">
+
+            <div class="our-products-top-glav">
+                <div class="our-products-top">
+                    <div class="our-products-text-with-rectangle">
+                        <div class="red-rectangle"></div>
+                        <p>Our Products</p>
+                    </div>
+    
+                    <p class="our-products-inscription">Explore Our Products</p>
+            </div>
+
+        </div>
+
+        <div class="our-products-cards-glav">
+
+            <div class="our-products-cards">
+
+            <div class="Breed-Dry-Dog-Food">
+                
+                <div class="Breed-Dry-Dog-Food-img-part">
+        
+                    <div class="Breed-Dry-Dog-Food-elements">
+        
+                    <div class="fill-heart-eye-r2">
+                    <img class="fill-heart" src="content/main/Flash-Sales-Cards/Cards-Elements/Fill-Heart.svg" alt="">
+                    <img class="fill-eye" src="content/main/Flash-Sales-Cards/Cards-Elements/Fill-Eye.svg" alt="">
+                    </div> 
+
+                    <button data-product-id="9" class="add-to-cart-eop-1">Add To Cart</button>
+        
+                    </div>
+        
+                    <img class="Breed-Dry-Dog-Food-img" src="content/main/Our-Products/Breed-Dry-Dog-Food/Breed-Dry-Dog-Food.svg" alt="">
+                </div>
+        
+                <div class="Breed-Dry-Dog-Food-text">
+                    <p>Breed Dry Dog Food</p>
+        
+                    <div class="cards-price-glav">
+                        <div class="cards-price">
+                    <p class="flash-sales-card-price">$100</p>
+                    <img class="rating-1" src="content/main/Our-Products/Breed-Dry-Dog-Food/rating.svg" alt="">
+                        </div>
+                    </div>
+        
+                </div>     
+            </div>
+
+
+            <div class="CANON-EOS-DSLR-Camera">
+                
+                <div class="CANON-EOS-DSLR-Camera-img-part">
+        
+                    <div class="CANON-EOS-DSLR-Camera-elements">
+        
+                    <div class="fill-heart-eye-r2">
+                    <img class="fill-heart" src="content/main/Flash-Sales-Cards/Cards-Elements/Fill-Heart.svg" alt="">
+                    <img class="fill-eye" src="content/main/Flash-Sales-Cards/Cards-Elements/Fill-Eye.svg" alt="">
+                    </div> 
+
+                    <button data-product-id="10" class="add-to-cart-eop-1">Add To Cart</button>
+        
+                    </div>
+        
+                    <img class="CANON-EOS-DSLR-Camera-img" src="content/main/Our-Products/CANON-EOS-DSLR-Camera/CANON-EOS-DSLR-Camera.svg" alt="">
+                </div>
+        
+                <div class="CANON-EOS-DSLR-Camera-text">
+                    <p>CANON EOS DSLR Camera</p>
+        
+                    <div class="cards-price-glav">
+                        <div class="cards-price">
+                    <p class="flash-sales-card-price">$360</p>
+                    <img class="rating-1" src="content/main/Our-Products/CANON-EOS-DSLR-Camera/rating.svg" alt="">
+                        </div>
+                    </div>
+        
+                </div>     
+            </div>
+
+
+
+            <div class="ASUS-FHD-Gaming-Laptop">
+                
+                <div class="ASUS-FHD-Gaming-Laptop-img-part">
+        
+                    <div class="ASUS-FHD-Gaming-Laptop-elements">
+        
+                    <div class="fill-heart-eye-r2">
+                    <img class="fill-heart" src="content/main/Flash-Sales-Cards/Cards-Elements/Fill-Heart.svg" alt="">
+                    <img class="fill-eye" src="content/main/Flash-Sales-Cards/Cards-Elements/Fill-Eye.svg" alt="">
+                    </div> 
+
+                    <button data-product-id="11" class="add-to-cart-eop-1">Add To Cart</button>
+        
+                    </div>
+        
+                    <img class="ASUS-FHD-Gaming-Laptop-img" src="content/main/Our-Products/ASUS-FHD-Gaming-Laptop/ASUS-FHD-Gaming-Laptop.svg" alt="">
+                </div>
+        
+                <div class="ASUS-FHD-Gaming-Laptop-text">
+                    <p>ASUS FHD Gaming Laptop</p>
+        
+                    <div class="cards-price-glav">
+                        <div class="cards-price">
+                    <p class="flash-sales-card-price">$700</p>
+                    <img class="rating-1" src="content/main/Our-Products/ASUS-FHD-Gaming-Laptop/rating.svg" alt="">
+                        </div>
+                    </div>
+        
+                </div>     
+            </div>
+
+
+
+            <div class="Curology-Product-Set">
+                
+                <div class="Curology-Product-Set-img-part">
+        
+                    <div class="Curology-Product-Set-elements">
+        
+                    <div class="fill-heart-eye-r2">
+                    <img class="fill-heart" src="content/main/Flash-Sales-Cards/Cards-Elements/Fill-Heart.svg" alt="">
+                    <img class="fill-eye" src="content/main/Flash-Sales-Cards/Cards-Elements/Fill-Eye.svg" alt="">
+                    </div> 
+
+                    <button data-product-id="12" class="add-to-cart-eop-1">Add To Cart</button>
+        
+                    </div>
+        
+                    <img class="Curology-Product-Set-img" src="content/main/Our-Products/Curology-Product-Set/Curology-Product-Set.svg" alt="">
+                </div>
+        
+                <div class="Curology-Product-Set-text">
+                    <p>Curology Product Set</p>
+        
+                    <div class="cards-price-glav">
+                        <div class="cards-price">
+                    <p class="flash-sales-card-price">$500</p>
+                    <img class="rating-1" src="content/main/Our-Products/Curology-Product-Set/rating.svg" alt="">
+                        </div>
+                    </div>
+        
+                </div>     
+            </div>
+
+
+
+            <div class="Kids-Electric-Car">
+                
+                <div class="Kids-Electric-Car-img-part">
+        
+                    <div class="Kids-Electric-Car-elements">
+        
+                    <img class="card-new-ico-img" src="content/main/Our-Products/Kids-Electric-Car/new.svg" alt="">   
+        
+                    <div class="fill-heart-eye-r3">
+                    <img class="fill-heart" src="content/main/Flash-Sales-Cards/Cards-Elements/Fill-Heart.svg" alt="">
+                    <img class="fill-eye" src="content/main/Flash-Sales-Cards/Cards-Elements/Fill-Eye.svg" alt="">
+                    </div> 
+
+                    <button data-product-id="13" class="add-to-cart-eop-2">Add To Cart</button>
+        
+                    </div>
+        
+                    <img class="Kids-Electric-Car-img" src="content/main/Our-Products/Kids-Electric-Car/Kids-Electric-Car.svg" alt="">
+                </div>
+        
+                <div class="Kids-Electric-Car-text">
+                    <p>Kids Electric Car</p>
+        
+                    <div class="cards-price-glav">
+                        <div class="cards-price">
+                    <p class="flash-sales-card-price">$960</p>
+                    <img class="rating-1" src="content/main/Our-Products/Kids-Electric-Car/rating.svg" alt="">
+                        </div>
+        
+                    <div class="Kids-Electric-Car-tumbler-glav">
+                        <div class="tumbler">
+                            <div class="Kids-Electric-Car-form_radio">
+                                <input class="Kids-Electric-Car-radio-1" type="radio" name="radio" value="1" id="radio-1" checked>
+                            </div>
+                    
+                            <div class="form-radio">
+                                <input class="Kids-Electric-Car-radio-2" type="radio" name="radio" value="2" id="radio-2">
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+        
+                </div>     
+            </div>
+
+
+
+            <div class="Jr-Zoom-Soccer-Cleats">
+                
+                <div class="Jr-Zoom-Soccer-Cleats-img-part">
+        
+                    <div class="Jr-Zoom-Soccer-Cleats-elements">
+        
+                    <div class="fill-heart-eye-r2">
+                    <img class="fill-heart" src="content/main/Flash-Sales-Cards/Cards-Elements/Fill-Heart.svg" alt="">
+                    <img class="fill-eye" src="content/main/Flash-Sales-Cards/Cards-Elements/Fill-Eye.svg" alt="">
+                    </div> 
+
+                    <button data-product-id="14" class="add-to-cart-eop-1">Add To Cart</button>
+        
+                    </div>
+        
+                    <img class="Jr-Zoom-Soccer-Cleats-img" src="content/main/Our-Products/JR-Zoom-Soccer-Cleats/JR-Zoom-Soccer-Cleats.svg" alt="">
+                </div>
+        
+                <div class="Jr-Zoom-Soccer-Cleats-text">
+                    <p>Jr. Zoom Soccer Cleats</p>
+        
+                    <div class="cards-price-glav">
+                        <div class="cards-price">
+                    <p class="flash-sales-card-price">$1160</p>
+                    <img class="rating-1" src="content/main/Our-Products/JR-Zoom-Soccer-Cleats/rating.svg" alt="">
+                        </div>
+                    </div>
+        
+                    
+                    <div class="Jr-Zoom-Soccer-Cleats-tumbler-glav">
+                        <div class="tumbler2">
+                            <div class="Jr-Zoom-Soccer-Cleats-form-radio">
+                                <input class="Jr-Zoom-Soccer-Cleats-radio-1" type="radio" name="radio2" value="1" id="radio-3" checked>
+                            </div>
+                    
+                            <div class="form-radio">
+                                <input class="Jr-Zoom-Soccer-Cleats-radio-2" type="radio" name="radio2" value="2" id="radio-4">
+                            </div>
+                        </div>
+                      </div>
+
+
+                </div>     
+            </div>
+        
+
+
+            <div class="GP11-Shooter-USB-Gamepad">
+                
+                <div class="GP11-Shooter-USB-Gamepad-img-part">
+        
+                    <div class="GP11-Shooter-USB-Gamepad-elements">
+        
+                    <img class="card-new-ico-img" src="content/main/Our-Products/Kids-Electric-Car/new.svg" alt="">   
+        
+                    <div class="fill-heart-eye-r3">
+                    <img class="fill-heart" src="content/main/Flash-Sales-Cards/Cards-Elements/Fill-Heart.svg" alt="">
+                    <img class="fill-eye" src="content/main/Flash-Sales-Cards/Cards-Elements/Fill-Eye.svg" alt="">
+                    </div> 
+
+                    <button data-product-id="15" class="add-to-cart-eop-2">Add To Cart</button>
+        
+                    </div>
+        
+                    <img class="GP11-Shooter-USB-Gamepad-img" src="content/main/Our-Products/GP11-Shooter-USB-Gamepad/GP11-Shooter-USB-Gamepad.svg" alt="">
+                </div>
+        
+                <div class="GP11-Shooter-USB-Gamepad-text">
+                    <p>GP11 Shooter USB Gamepad</p>
+        
+                    <div class="cards-price-glav">
+                        <div class="cards-price">
+                    <p class="flash-sales-card-price">$660</p>
+                    <img class="rating-1" src="content/main/Our-Products//GP11-Shooter-USB-Gamepad/rating.svg" alt="">
+                        </div>
+        
+                    <div class="GP11-Shooter-USB-Gamepad-glav">
+                        <div class="tumbler3">
+                            <div class="GP11-Shooter-USB-Gamepad-form_radio">
+                                <input class="GP11-Shooter-USB-Gamepad-radio-1" type="radio" name="radio3" value="1" id="radio-1" checked>
+                            </div>
+                    
+                            <div class="form-radio">
+                                <input class="GP11-Shooter-USB-Gamepad-radio-2" type="radio" name="radio3" value="2" id="radio-2">
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+        
+                </div>     
+            </div>
+
+
+
+            <div class="Quilted-Satin-Jacket">
+                
+                <div class="Quilted-Satin-Jacket-img-part">
+        
+                    <div class="Quilted-Satin-Jacket-elements">
+        
+                    <div class="fill-heart-eye-r2">
+                    <img class="fill-heart" src="content/main/Flash-Sales-Cards/Cards-Elements/Fill-Heart.svg" alt="">
+                    <img class="fill-eye" src="content/main/Flash-Sales-Cards/Cards-Elements/Fill-Eye.svg" alt="">
+                    </div> 
+
+                    <button data-product-id="16" class="add-to-cart-eop-1">Add To Cart</button>
+        
+                    </div>
+        
+                    <img class="Quilted-Satin-Jacket-img" src="content/main/Our-Products/Quilted-Satin-Jacket/Quilted-Satin-Jacket.svg" alt="">
+                </div>
+        
+                <div class="Quilted-Satin-Jacket-text">
+                    <p>Quilted Satin Jacket</p>
+        
+                    <div class="cards-price-glav">
+                        <div class="cards-price">
+                    <p class="flash-sales-card-price">$1160</p>
+                    <img class="rating-1" src="content/main/Our-Products/Quilted-Satin-Jacket/rating.svg" alt="">
+                        </div>
+                    </div>
+        
+                    
+                    <div class="Quilted-Satin-Jacket-tumbler-glav">
+                        <div class="tumbler4">
+                            <div class="Quilted-Satin-Jacket-form-radio">
+                                <input class="Quilted-Satin-Jacket-radio-1" type="radio" name="radio4" value="1" id="radio-3" checked>
+                            </div>
+                    
+                            <div class="form-radio">
+                                <input class="Quilted-Satin-Jacket-radio-2" type="radio" name="radio4" value="2" id="radio-4">
+                            </div>
+                        </div>
+                      </div>
+
+
+                </div>     
+            </div>
+        
+
+        </div>
+    </div>
+
+    <a href="#"><div class="view-all-products-button2">
+        <div class="view-all-products-button2-wrapper"><p>View All Products</p></div>
+    </div>
+    </a>
+    
+
+    <div class="New-Arrival">
+
+        <div class="New-Arrival-top-glav">
+            <div class="New-Arrival">
+                <div class="New-Arrival-text-with-rectangle">
+                    <div class="red-rectangle"></div>
+                    <p>Featured</p>
+                </div>
+
+                <p class="New-Arrival-inscription">New Arrival</p>
+        </div>
+
+    </div>
+
+    <div class="New-Arrival-Cards">
+    <div class="New-Arrival-Cards-parent">
+
+        <div class="PS5">
+            <div class="PS5-info">
+                <p class="PS5-Header">PlayStation 5</p>
+                <p class="PS5-Discription">Black and White version of the PS5 <br> coming out on sale.</p>
+                <a href="#">Shop Now</a>
+            </div>
+        </div>
+
+
+        <div class="Women"> 
+            <div class="Women-info">
+                <p class="Women-Header">Women’s Collections</p>
+                <p class="Women-Discription">Featured woman collections that <br> give you another vibe.</p>
+                <a href="#">Shop Now</a>
+            </div>
+        </div>
+
+
+        <div class="Speaker"> 
+            <div class="Speaker-info">
+                <p class="Speaker-Header">Speakers</p>
+                <p class="Speaker-Discription">Amazon wireless speakers</p>
+                <a href="#">Shop Now</a>
+            </div>
+        </div>
+
+
+        <div class="Gucci-Perfume"> 
+            <div class="Gucci-Perfume-info">
+                <p class="Gucci-Perfume-Header">Perfume</p>
+                <p class="Gucci-Perfume-Discription">GUCCI INTENSE OUD EDP</p>
+                <a href="#">Shop Now</a>
+            </div>
+        </div>
+
+        </div>
+    </div>
+
+    
+    <div class="service-ads">
+        <div class="delivery"></div>
+        <div class="customer-24-7"></div>
+        <div class="money-back"></div>
+    </div>
+
+    <div class="ontop-button-glav">
+        <div class="ontop-button">
+            <button onclick="topFunction()" id="ontopbtn" title="Go to top"></button>
+        </div>
+
+        <script>
+            function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+            }    
+        </script>
+    </div>
+
+    <script src="js/cart.js"></script>
+    </main>
+    
+<footer>
+
+    <div class="footer-glav">
+        <div class="Exclusive-part">
+            <p id="exc-1">Exclusive</p>
+            <p id="exc-2">Subscribe</p>
+            <p id="exc-3">Get 10% off your first order</p>
+        
+            <input type="email" placeholder="Enter your email" id="type-email">
+        </div>
+
+        <div class="Support-part">
+            <p id="sup-1">Support</p>
+            <p id="sup-2">111 Bijoy sarani, Dhaka, <br> DH 1515, Bangladesh.</p>
+
+            <p id="sup-email">exclusive@gmail.com</p>
+            <p id="sup-tel">+88015-88888-9999</p>
+        </div>
+
+        <div class="Account-part">
+            <p id="acc-1">My account</p>
+            <a href="account.html">My Account</a>
+            <a href="signup-page.html">Login / Register</a>
+            <a href="#">Cart</a>
+            <a href="#">Wishlist</a>
+            <a href="#">Shop</a>
+        </div>
+
+        <div class="Quick-link-part">
+            <p id="qic-1">Quick Link</p>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms Of Use</a>
+            <a href="#">FAQ</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <div class="Download-part">
+            <p id="dow-1">Download App</p>
+            <p id="dow-2">Save $3 with App New User Only</p>
+
+            <div class="download-img-part">
+                <div class="download-img-part-parent">
+                    <div class="download-img-part-qrcode"></div>
+                    <a href="#"><div class="download-img-part-googleplay"></div></a>
+                    <a href="#"><div class="download-img-part-appstore"></div></a>
+                    </div>
+                </div>
+
+                <div class="soc-net-icos">
+                    <a href="#"><img class="soc-ico" src="content/footer/soc-net-ico/Icon-Facebook.svg" alt=""></a>
+                    <a href="#"><img class="soc-ico" src="content/footer/soc-net-ico/Icon-Twitter.svg" alt=""></a>
+                    <a href="#"><img class="soc-ico" src="content/footer/soc-net-ico/icon-instagram.svg" alt=""></a>
+                    <a href="#"><img class="soc-ico" src="content/footer/soc-net-ico/Icon-Linkedin.svg" alt=""></a>
+                </div>
+            </div>
+            </div>
+
+            <div class="last-footer-text">
+                <img src="content/footer/icon-copyright.svg" alt="">
+                <p id="copi-1">Copyright Rimel 2022. All right reserved</p>
+            </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,187 @@
+.signup-part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 60px;
+  margin-bottom: 140px;
+}
+.signup-part img {
+  width: 50%;
+}
+
+.signup-info-part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 130px;
+}
+
+.signup-input-part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+}
+
+.crt-acc-txt {
+  color: #000;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 1.44px;
+  margin-bottom: 24px;
+}
+
+.crt-acc-txt-2 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 48px;
+}
+
+#signup-name-input {
+  width: 300px;
+  border: none;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.7);
+  padding-bottom: 8px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+#signup-name-input:focus {
+  outline: none;
+}
+
+#signup-mail-input {
+  width: 300px;
+  border: none;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.7);
+  padding-bottom: 8px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+#signup-mail-input:focus {
+  outline: none;
+}
+
+#signup-password-input {
+  width: 300px;
+  border: none;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.7);
+  padding-bottom: 8px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+#signup-password-input:focus {
+  outline: none;
+}
+
+.signup-button-part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 40px;
+  gap: 16px;
+}
+
+.signup-create-acc-button {
+  width: 300px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  background: #DB4444;
+  color: #FAFAFA;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.signup-create-acc-button:hover {
+  color: #DB4444;
+  background: #FAFAFA;
+  border: solid 1px #DB4444;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.signup-with-google-acc-button {
+  width: 300px;
+  height: 56px;
+  border: solid 1px rgba(0, 0, 0, 0);
+  border-radius: 4px;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.signup-with-google-acc-button:hover {
+  border: solid 1px #DB4444;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.signup-already {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 40px;
+  gap: 16px;
+  margin-top: 34px;
+}
+.signup-already p {
+  color: rgba(0, 0, 0, 0.7);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.signup-already a {
+  color: rgba(0, 0, 0, 0.7);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  text-decoration: underline;
+}

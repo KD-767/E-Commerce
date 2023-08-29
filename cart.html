@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Cart</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<header>
+        <!-- это черная верхушка -->
+        <div class="top-notification">
+
+            <p>Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!</p>
+            <a href="#">ShopNow</a>
+
+        <!-- это кнопка смены языка в черной верхушке -->
+            <div class="lang-switch">
+            <p>English</p>
+            <img src="content/header/DropDown.svg" alt="">
+            </div>
+
+        </div>
+
+        <!-- навигация -->
+        <nav>
+            <p class="Exclusive">Exclusive</p>
+
+            <!-- кнопки навигации -->
+            <div class="navnav">
+                <a href="index.html">Home</a>
+                <a href="contact.html">Contact</a>
+                <a href="about.html">About</a>
+                <a href="signup-page.html">Sign Up</a>
+            </div>
+
+
+            <!-- это поиск и иконки сердца и корзины возле поиска -->
+            <div class="wishlist-and-cart-icon">            
+            <input class="nav-search" type="text" placeholder="What are you looking for?">
+            <a href="wishlist.html"><img class="wishlist-icon" src="content/header/nav/Wishlist.svg" alt=""></a>
+            <a href="cart.html"><img class="Cart1-with-buy-icon" src="content/header/nav/Cart1-with-buy.svg" alt=""></a>
+            </div>
+        </nav>
+</header>
+
+<body>
+
+    <div class="directory-home-cart">
+        <a href="index.html">Home</a>
+        <p class="slash">/</p>
+        <p class="directory-home-cart-text">Cart</p>
+    </div>
+
+    <div class="cart-main-glav">
+        <div class="cart-main">
+    <!-- Создание таблицы для отображения элементов корзины -->
+    <table id="cart">
+        <thead>
+            <tr class="cart-top">
+                <th class="cart-tovar">Product</th>
+                <th class="cart-cena">Price</th>
+                <th class="cart-kol-vo">Quantity</th>
+                <th class="cart-itogo">Subtotal</th>
+            </tr>
+        </thead>
+
+        <tbody></tbody>
+
+    </table>
+    <!-- Добавление кнопки для очистки корзины -->
+
+    <script>
+        // Получение элементов корзины из localStorage
+        const cart = JSON.parse(localStorage.getItem("cart")) || [];
+        // Получение элемента tbody таблицы корзины
+        const cartTableBody = document.querySelector("#cart tbody");
+        // Общая сумма всех товаров в корзине
+        let total = 0;
+        // Отображение каждого элемента корзины в таблице
+        cart.forEach((item, index) => {
+            // Создание новой строки таблицы для каждого элемента корзины
+            const row = document.createElement("tr");
+            // Заполнение строки таблицы данными об элементе корзины
+            row.innerHTML = `
+            <div class="tbody-products">
+                <div class="item-img-name-glav">
+                    <div class="item-img-name">
+                        <img class="item-img" src="${item.img}" alt="${item.name}" width="50px" height="50px">
+                        <p class="item-name">${item.name}</p>
+                    </div>
+                </div>
+
+                <p class="item-price">${item.price}</p> 
+                
+                <div class="item-quantity"><button onclick="decreaseQuantity(${index})">-</button>${item.quantity}<button onclick="increaseQuantity(${index})">+</button></div>
+
+                <p class="item-full-price">$${item.price * item.quantity}</p>        
+            </div>  
+ `;
+            // Обновление общей суммы
+            total += item.price * item.quantity;
+            // Добавление строки в таблицу
+            cartTableBody.appendChild(row);
+        });
+        // Создание строки для отображения общей суммы
+        const totalRow = document.createElement("tr");
+        totalRow.innerHTML = `
+
+        <div class="cart-buttons-glav"> 
+            <div class="cart-buttons">
+                <a href="index.html"><div class="return-to-shop">Return To Shop</div></a>
+                <button class="cart-clear-button" onclick="clearCart()">Clear Cart</button>
+            </div>
+        </div>
+        
+        <div class="cart-card">
+
+            <div class="cc-1">
+                <input class="cc-input" type="text" placeholder="Coupon Code">
+                <button class="cc-button">Apply Coupon</button>
+            </div>
+
+
+            <div class="cc-2">
+
+            <p class="cc-text-1">Cart Total</p>
+
+            <div class="cc-txt-1">
+                <p class="cc-text-2">Subtotal</p>
+                <p class="total-price">$${total}</p>
+            </div>
+
+            <div class="cc-txt-2">
+                <p class="cc-text-3">Shipping</p>
+                <p class="cc-text-4">Free</p>
+            </div>
+
+            <div class="cc-txt-3">
+                <p class="cc-text-5">Total:</p>
+                <p class="total-price">$${total}</p>
+            </div>
+
+            <a href="checkout.html"><button class="cc-button-2">Process to checkout</button></a>
+        </div>
+        `;
+        // Добавление строки с общей суммой в таблицу
+        cartTableBody.appendChild(totalRow);
+        // Функция для увеличения количества товара
+        function increaseQuantity(index) {
+            // Увеличение количества товара на 1
+            cart[index].quantity++;
+            // Сохранение обновленной корзины в localStorage
+            localStorage.setItem("cart", JSON.stringify(cart));
+            // Перезагрузка страницы для отображения обновленной корзины
+            location.reload();
+        }
+        // Функция для уменьшения количества товара
+        function decreaseQuantity(index) {
+            // Уменьшение количества товара на 1, если оно больше 1
+            if (cart[index].quantity > 0) {
+                cart[index].quantity--;
+                // Сохранение обновленной корзины в localStorage
+                localStorage.setItem("cart", JSON.stringify(cart));
+                // Перезагрузка страницы для отображения обновленной корзины
+                location.reload();
+            }
+        }
+        // Функция для очистки корзины
+        function clearCart() {
+            // Очистка массива корзины
+            cart.splice(0, cart.length);
+            // Сохранение пустой корзины в localStorage
+            localStorage.setItem("cart", JSON.stringify(cart));
+            // Перезагрузка страницы для отображения пустой корзины
+            location.reload();
+        }
+    </script>
+        </div>
+    </div>
+
+    <footer>
+
+        <div class="footer-glav">
+            <div class="Exclusive-part">
+                <p id="exc-1">Exclusive</p>
+                <p id="exc-2">Subscribe</p>
+                <p id="exc-3">Get 10% off your first order</p>
+            
+                <input type="email" placeholder="Enter your email" id="type-email">
+            </div>
+    
+            <div class="Support-part">
+                <p id="sup-1">Support</p>
+                <p id="sup-2">111 Bijoy sarani, Dhaka, <br> DH 1515, Bangladesh.</p>
+    
+                <p id="sup-email">exclusive@gmail.com</p>
+                <p id="sup-tel">+88015-88888-9999</p>
+            </div>
+    
+            <div class="Account-part">
+                <p id="acc-1">My account</p>
+                <a href="#">My Account</a>
+                <a href="signup-page.html">Login / Register</a>
+                <a href="#">Cart</a>
+                <a href="#">Wishlist</a>
+                <a href="#">Shop</a>
+            </div>
+    
+            <div class="Quick-link-part">
+                <p id="qic-1">Quick Link</p>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms Of Use</a>
+                <a href="#">FAQ</a>
+                <a href="contact.html">Contact</a>
+            </div>
+    
+            <div class="Download-part">
+                <p id="dow-1">Download App</p>
+                <p id="dow-2">Save $3 with App New User Only</p>
+    
+                <div class="download-img-part">
+                    <div class="download-img-part-parent">
+                        <div class="download-img-part-qrcode"></div>
+                        <a href="#"><div class="download-img-part-googleplay"></div></a>
+                        <a href="#"><div class="download-img-part-appstore"></div></a>
+                        </div>
+                    </div>
+    
+                    <div class="soc-net-icos">
+                        <a href="#"><img class="soc-ico" src="content/footer/soc-net-ico/Icon-Facebook.svg" alt=""></a>
+                        <a href="#"><img class="soc-ico" src="content/footer/soc-net-ico/Icon-Twitter.svg" alt=""></a>
+                        <a href="#"><img class="soc-ico" src="content/footer/soc-net-ico/icon-instagram.svg" alt=""></a>
+                        <a href="#"><img class="soc-ico" src="content/footer/soc-net-ico/Icon-Linkedin.svg" alt=""></a>
+                    </div>
+                </div>
+                </div>
+    
+                <div class="last-footer-text">
+                    <img src="content/footer/icon-copyright.svg" alt="">
+                    <p id="copi-1">Copyright Rimel 2022. All right reserved</p>
+                </div>
+    </footer>
+
+</body>
+</html>    
+
+
